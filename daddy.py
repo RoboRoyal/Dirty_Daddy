@@ -116,7 +116,7 @@ class DDClient(discord.Client):
 
 '''
 if __name__ == "__main__":
-    TOKEN = "NzkzNjIzOTUxNDgxMjQxNjAx.X-u95g.tEPK4jaUqawpHjJie_NM12rEO4U"
+    TOKEN = "####"
     word_list = open('words.txt', 'r') .read().strip().split(',')
     client = DDClient()
     client.run(TOKEN)
